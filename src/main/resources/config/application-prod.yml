@@ -27,7 +27,7 @@ spring:
             enabled: false
     data:
         mongodb:
-            uri: mongodb://localhost:27017
+            uri: ${MONGO_URI}
             database: Ayurveda
     mail:
         host: localhost
